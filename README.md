@@ -1,0 +1,3 @@
+I've chosen a different image and changed the position of the Odin logo and text to a position that fits with the text
+I tried to use the content of the last lessons on css calculations as much as possible, but I am sure that there are areas that I've missed and others that could have been styled with other techniques
+I added the reset Button and fieldsets, those elements weren't in the layout of the assignment, but I wanted to use them in a practical example
