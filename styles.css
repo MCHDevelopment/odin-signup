@@ -1,0 +1,51 @@
+:root {
+    --page-side-margin: 15vw;
+    --page-top-bottom-margin: 0vh;
+    --page-height: 100vh;
+    --page-width: calc(100vw - calc(var(--page-side-margin) * 2));
+
+    --image-width: calc(var(--page-width) * 0.4);
+
+    --form-width: calc(var(--page-width) - var(--image-width));
+  }
+
+body{
+    margin-top: var(--page-top-bottom-margin);
+    margin-bottom: var(--page-top-bottom-margin);
+}
+
+#pageArea{
+    display: flex;
+    margin-left: var(--page-side-margin);
+    margin-right: var(--page-side-margin);
+    margin-top: var(--page-top-bottom-margin);
+    margin-bottom: var(--page-top-bottom-margin);
+
+    padding: 0;
+
+    height: var(--page-height);
+    width: var(--page-width);
+
+
+    border-style: solid;
+    border-color: red;
+}
+
+#imageArea{
+    margin: 0;
+    display: flex;
+    align-items: center;
+
+    height: 100%;
+    width: var(--image-width);
+
+    border-style: solid;
+    border-color: green;
+}
+
+#sideImage{
+    flex: 1;
+    height: 100%;
+    width: max(100%);
+    object-fit: cover;
+}
